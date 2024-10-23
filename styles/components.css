@@ -3,7 +3,36 @@
     position: relative;
     padding: 20px 0;
 }
+/* Enhanced Project Card Styles */
+.tech-platforms {
+    margin-top: 15px;
+}
 
+.platform-title {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+/* Cloud Platform Specific Tags */
+.tag.AWS {
+    background: rgba(255, 153, 0, 0.1);
+    color: #FF9900;
+}
+
+.project-tags .tag[class*="AWS"] {
+    background: rgba(255, 153, 0, 0.1);
+    color: #FF9900;
+}
+
+.project-tags .tag[class*="DynamoDB"] {
+    background: rgba(79, 132, 196, 0.1);
+    color: #4F84C4;
+}
+
+.project-card .project-tags {
+    margin-bottom: 10px;
+}
 .timeline::before {
     content: '';
     position: absolute;
