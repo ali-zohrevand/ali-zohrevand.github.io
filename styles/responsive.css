@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .header-content .name {
+        font-size: 2rem;
+    }
+
+    .header-content .title {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .projects-grid,
+    .personal-grid,
+    .recommendations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .project-card,
+    .personal-card,
+    .recommendation-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .project-tags {
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        font-size: 0.8rem;
+    }
+}

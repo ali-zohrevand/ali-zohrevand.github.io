@@ -1,0 +1,52 @@
+:root {
+    --primary-bg: #1A1A1A;
+    --secondary-bg: #252525;
+    --go-blue: #00ADD8;
+    --dotnet-purple: #512BD4;
+    --accent: #00ADD8;
+    --text: #F5F5F5;
+    --text-secondary: #A0A0A0;
+    --success: #4CAF50;
+    --card-bg: #2A2A2A;
+    --warm-accent: #E6C200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Text styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--go-blue);
+}
